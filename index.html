@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fancy Tic-Tac-Toe Web Game">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="logo/logo.png" type="image/png">
+    <script defer src="app/app.js"></script>
+    <title>TickTacToe</title>
+</head>
+<body>
+    <div class="title">
+        <marquee><span>YB</span><sub>7</sub> Tic Tac Toe</marquee>
+    </div>
+    <div class="start">
+        <button class="startBtn activeGame" id="startBtn"><h3>start</h3></button>
+    </div>
+    <section class="board" Tic-Tac-Toe>
+        <div row class="row">
+            <div col class="col"></div>
+            <div col class="col"></div>
+            <div col class="col"></div>
+        </div>
+        <div row class="row">
+            <div col class="col"></div>
+            <div col class="col"></div>
+            <div col class="col"></div>
+        </div>
+        <div row class="row">
+            <div col class="col"></div>
+            <div col class="col"></div>
+            <div col class="col"></div>
+        </div>
+    </section>
+
+    <article class="resultMsg" id="resultMsg">
+        <div icon-winner class="displaySymbol">        
+        </div>
+        <div class="message">
+            <h1 id="resultTitle"></h1>
+        </div>
+        <button class="restartBtn" id="restart">restart</button>
+    </article>
+
+    <template id="O">
+        <div circle class="circle"></div>
+    </template>
+
+    <template id="X">
+        <div ex class="ex">
+            <div class="stk1"></div>
+            <div class="stk2"></div>
+        </div>
+    </template>
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+</body>
+</html>
